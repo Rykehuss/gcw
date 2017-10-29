@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Hind;
+    src: url(../fonts/Hind-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hind-Bold;
+    src: url(../fonts/Hind-Bold.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.header_0 {
+    background: #ededed;
+}
+
+.header_1 {
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+.body_0 {
+    background: url(../img/Section-1-BG.png) no-repeat right top #000;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    /*    border: 1px solid red;*/
+}
+
+.logo {
+    margin-top: 20px;
+    float: left;
+}
+
+nav {
+    float: left;
+    margin-top: 26px;
+
+}
+
+.menu_line {
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.7) inset;
+    padding-bottom: 22px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-left: 21px;
+    margin-right: 11px;
+}
+
+.menu a {
+    font-family: Hind-Bold, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.search_icon {
+    float: right;
+    color: white;
+    margin-top: 20px;
+    margin-right: 6px;
+}
+
+.checks {
+    display: block;
+    float: right;
+    margin-top: 35px;
+}
+
+.check_item {
+    display: block;
+    float: left;
+    width: 158px;
+    border: 1px solid white;
+}
+
+.check_item_text {
+    display: block;
+    float: left;
+}
+
+.check_item_text p {
+    margin: 0;
+}
+
+.check_item_icon {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.item_text {
+    color: #000;
+    font-family: Hind-Bold, sans-serif;
+}
+
+.item_subtext {
+    color: #7a7a7a;
+    font-family: Hind, sans-serif;
+}
+
+.icons {
+    color: #2e2e2e;
+    float: right;
+    display: block;
+}
+
+.icons i {
+    margin-top: 18px;
+    margin-left: 24px;
+}
+
+.contacts {
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.contacts div {
+    font-family: Hind, sans-serif;
+    color: #565656;
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.contacts span {
+    font-family: Hind-Bold, sans-serif;
+}
+
+.contacts i {
+    color: #000;
+}
+
+.city_div {
+    overflow: hidden;
+    height: 34px;
+    background: url(../img/arrow_36.png) no-repeat right #212121;
+    width: 127px;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.city_select {
+    border-radius: 0;
+    background: transparent;
+    height: 34px;
+    padding: 6px;
+    border: 0;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 150px;
+    color: #fff;
+    font-family: Hind, sans-serif;
+}
+
+.city_select option {
+    background: #212121;
+    color: #fff;
+    font-family: Hind, sans-serif;
+    width: 127px;
+}
+
+.slider_text {
+    display: block;
+    margin: 216px 0 0 21px;
+}
+
+.slider_text p {
+    padding: 0;
+    margin: 0;
+    font-family: Hind-Bold, sans-serif;
+}
+
+.slider_text_head {
+    color: #bd2631;
+    font-size: 33px;
+}
+
+.slider_text_text {
+    color: #fff;
+    font-size: 44px;
+}
+
+.slider_text_subtext {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.quote_line {
+    display: block;
+    background: #bd2631;
+}
+
+.quote_line {
+    margin-top: 220px;
+    padding: 30px 0;
+}
+
+.quote_text {
+    display: block;
+    float: left;
+    font-family: Hind, sans-serif;
+    color: #fff;
+}
+
+.quote_text p {
+    padding: 0;
+    margin: 0;
+}
+
+.quote_text_text {
+    font-size: 30px;
+}
+
+.quote_text_subtext {
+    font-size: 22px;
+}
+
+.quote_line a {
+    display: block;
+    width: 136px;
+    background: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    padding: 15px 0;
+    font-family: Hind-Bold, sans-serif;
+    float: right;
+    margin-top: 10px;
+}
