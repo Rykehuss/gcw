@@ -8,6 +8,21 @@
     src: url(../fonts/Hind-Bold.ttf);
 }
 
+@font-face {
+    font-family: Hind-Medium;
+    src: url(../fonts/Hind-Medium.ttf);
+}
+
+@font-face {
+    font-family: Hind-Semibold;
+    src: url(../fonts/Hind-Semibold.ttf);
+}
+
+@font-face {
+    font-family: Hind-Light;
+    src: url(../fonts/Hind-Light.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -210,18 +225,20 @@ nav {
 
 .slider_text_head {
     color: #bd2631;
-    font-size: 33px;
+    font-size: 32px;
 }
 
 .slider_text_text {
     color: #fff;
-    font-size: 44px;
+    font-size: 43px;
+    font-family: Hind-Semibold;
 }
 
 .slider_text_subtext {
     color: #fff;
     font-size: 24px;
     text-transform: uppercase;
+    font-family: Hind-Medium;
 }
 
 .quote_line {
@@ -248,10 +265,12 @@ nav {
 
 .quote_text_text {
     font-size: 30px;
+    font-family: Hind-Light;
 }
 
 .quote_text_subtext {
-    font-size: 22px;
+    font-size: 24px;
+    font-family: Hind-Light;
 }
 
 .quote_line a {
@@ -264,6 +283,7 @@ nav {
     color: #000;
     padding: 15px 0;
     font-family: Hind-Bold, sans-serif;
+    font-size: 14px;
     float: right;
     margin-top: 10px;
 }
