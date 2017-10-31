@@ -79,7 +79,7 @@ nav {
 }
 
 .menu a {
-    font-family: Hind-Bold, sans-serif;
+    font-family: Hind-Medium, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -165,7 +165,6 @@ nav {
 .contacts {
     display: block;
     float: left;
-    margin-left: 18px;
     margin-top: 6px;
 }
 
@@ -173,11 +172,11 @@ nav {
     color: #565656;
     display: block;
     float: left;
-    margin-right: 30px;
+    margin-left: 35px;
 }
 
-.bold {
-    font-family: Hind-Bold, sans-serif;
+.semibold {
+    font-family: Hind-Semibold, sans-serif;
 }
 
 .contacts i {
@@ -190,7 +189,7 @@ nav {
     display: block;
     float: left;
     border-radius: 3px;
-    padding: 5px 15px;
+    padding: 7px 15px;
 }
 
 .slider_block {
