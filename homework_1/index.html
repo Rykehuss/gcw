@@ -4,53 +4,59 @@
     <meta charset="UTF-8">
     <title>SurePower</title>
 
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hind.css">
 </head>
 <body>
 <header>
-    <div class="header_0">
+    <div class="address_block">
         <div class="container clearfix">
-            <div class="city_div">
-                <select class="city_select">
-                    <option>
-                        Philadelphia
-                    </option>
-                    <option>
-                        Other Cities
-                    </option>
-                </select>
+            <div class="city_selector">
+                <p>Philadelphia &nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></p>
             </div>
             <div class="contacts">
                 <div>
                     <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>Toll-free:</span> 800-455-0054
+                    <span class="bold">Toll-free:</span><span> 800-455-0054</span>
                 </div>
                 <div>
                     <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                    200 Industrial Highway &nbsp;&nbsp; Ridley Park, PA 19078
+                    <span>200 Industrial Highway &nbsp;&nbsp; Ridley Park, PA 19078</span>
                 </div>
             </div>
             <div class="icons">
-                <a href="#">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-google-plus" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="header_1">
+    <div class="logo_block">
         <div class="container clearfix">
             <div>
                 <img src="img/logo.png" alt="SurePower" class="logo">
@@ -65,7 +71,7 @@
                         <p class="item_subtext">Subtitle 1</p>
                     </div>
                 </div>
-                <div class="check_item">
+                <div class="check_item check_item_center">
                     <div class="check_item_icon">
                         <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                     </div>
@@ -86,28 +92,28 @@
             </div>
         </div>
     </div>
-</header>
-<section>
-    <main>
-        <div class="body_0">
-            <div class="menu_line">
-                <div class="container clearfix">
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Rentals</a></li>
-                            <li><a href="#">Learning</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="search_icon">
-                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-                    </div>
-                </div>
+    <div class="menu_block">
+        <div class="container clearfix">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Rentals</a></li>
+                    <li><a href="#">Learning</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search_icon">
+                <span><i class="fa fa-search" aria-hidden="true"></i></span>
             </div>
+        </div>
+    </div>
+
+</header>
+<main>
+    <section class="slider_block">
             <div class="slider_text">
                 <div class="container clearfix">
                     <p class="slider_text_head">We provide innovative</p>
@@ -115,18 +121,17 @@
                     <p class="slider_text_subtext">VRLA Batteries are in stock for immediate delivery.</p>
                 </div>
             </div>
-            <div class="quote_line">
-                <div class="container clearfix">
-                    <div class="quote_text">
-                        <p class="quote_text_text">Request a Free Site Survey or Quote.</p>
-                        <p class="quote_text_subtext">UPS Battery and Uninterruptible Power Supply Sales and Installation.</p>
-                    </div>
-                    <a href="#">Get a Quote</a>
+    </section>
+    <section class="quote_block">
+            <div class="container clearfix">
+                <div class="quote_text">
+                    <p class="quote_text_text">Request a Free Site Survey or Quote.</p>
+                    <p class="quote_text_subtext">UPS Battery and Uninterruptible Power Supply Sales and Installation.</p>
                 </div>
+                <a class="quote_button" href="#">Get a Quote</a>
             </div>
-        </div>
-    </main>
-</section>
+    </section>
+</main>
 <footer>
 
 </footer>
