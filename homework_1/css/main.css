@@ -147,6 +147,20 @@ nav {
     margin-left: 22px;
 }
 
+.icons li:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
 .icons a {
     text-decoration: none;
     color: #2e2e2e;
@@ -158,8 +172,7 @@ nav {
 }
 
 .icons a:hover {
-    color: #fff;
-    font-size: 50px;
+    color: red;
 }
 
 .contacts {
