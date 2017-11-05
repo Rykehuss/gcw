@@ -61,7 +61,6 @@ nav {
 
 .menu_block {
     background: rgba(0, 0, 0, 0.7);
-    padding: 18px 0;
     position: absolute;
     width: 100%;
 }
@@ -74,8 +73,8 @@ nav {
 .menu li {
     float: left;
     display: block;
-    margin-left: 21px;
-    margin-right: 11px;
+    padding: 18px 16px 18px 16px;
+    position: relative;
 }
 
 .menu a {
@@ -84,6 +83,35 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+.menu li:after {
+    content: '';
+    position: absolute;
+    height: 7px;
+    bottom: 0;
+    left: 50%;
+    background: #bd2631;
+}
+
+.menu li:first-child:after {
+    width: 100%;
+    margin-left: -50%;
+}
+
+.menu li:nth-child(n+2):after {
+    width: 0;
+    margin-left: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu li:nth-child(n+2):hover:after {
+    width: 100%;
+    margin-left: -50%;
 }
 
 .search_icon {
