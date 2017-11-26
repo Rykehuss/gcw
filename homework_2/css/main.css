@@ -5,6 +5,7 @@
 
 div {
     box-sizing: border-box;
+    /*border: solid 1px red;*/
 }
 
 .promo-bar {
@@ -108,7 +109,7 @@ div {
 }
 
 .slider {
-    background: url(../img/slider-bg.png) no-repeat center top;
+    background: url(../img/slider-bg.jpg) no-repeat center top;
     background-size: cover;
     height: 42vw;
     padding-top: 84px;
@@ -340,7 +341,8 @@ div {
 }
 
 .photos {
-    background: url("../img/photos-bg.png") no-repeat center top #065288;
+    background: url("../img/photos-bg.jpg") no-repeat center top #065288;
+    background-size: cover;
     height: 47vw;
     display: flex;
     flex-direction: column;
@@ -385,14 +387,17 @@ div {
 
 .hc-1 {
     background: url(../img/hats-4.png) no-repeat top center #000;;
+    background-size: cover;
 }
 
 .hc-2 {
     background: url(../img/hats-5.png) no-repeat top center #000;;
+    background-size: cover;
 }
 
 .hc-3 {
     background: url(../img/hats-6.png) no-repeat top center #000;;
+    background-size: cover;
 }
 
 .hat-central p {
@@ -419,7 +424,7 @@ div {
 
 .video {
     height: 47vw;
-    background: url(../img/video-bg.png) no-repeat center center #000;;
+    background: url(../img/video-bg.jpg) no-repeat center center #000;;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -598,7 +603,7 @@ div {
     }
 
     .logo-menu {
-        width: 100vw;
+        /*width: 100vw;*/
     }
 
     .logo-menu div {
