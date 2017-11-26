@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open Sans Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Open Sans ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Open Sans Italic;
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: Brushstrike;
+    src: url(../fonts/Brushstrike.ttf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue-Regular.otf);
+}
+
+@font-face {
+    font-family: MyriadPro Semibold;
+    src: url(../fonts/MyriadPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Chunkfive;
+    src: url(../fonts/Chunkfive.otf);
+}
