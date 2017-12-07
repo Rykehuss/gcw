@@ -13,6 +13,7 @@ $dbhandler = mysqli_connect($host, $user, $passwrd, $dbname);
 if (!$dbhandler) {
     exit("Can't connect to DB!");
 }
+mysqli_set_charset($dbhandler, "utf8");
 
     $result = mysqli_query($dbhandler, "SELECT * FROM messages");
 //    var_dump($result);

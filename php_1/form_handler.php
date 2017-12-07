@@ -19,6 +19,8 @@ if ($nickname && $message) {
     if (!$dbhandler) {
         exit("Can't connect to DB!");
     }
+    
+	mysqli_set_charset($dbhandler, "utf8");
 
     $t = time();
 //    var_dump($t);
