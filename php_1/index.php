@@ -72,6 +72,10 @@ if (!$dbhandler) {
 </form>
 </div>
 
+<div class="link">
+    <a href="https://github.com/Rykehuss/gcw/tree/master/php_1">Source code</a>
+</div>
+
 <script type="text/javascript">
     var block = document.getElementById("block");
     block.scrollTop = block.scrollHeight;
