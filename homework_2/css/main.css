@@ -545,6 +545,11 @@ div {
     padding: 0 10px;
 }
 
+.send a {
+    text-decoration: none;
+    color: #0D6CB6;
+}
+
 .footer-top {
     display: flex;
     flex-direction: row;
