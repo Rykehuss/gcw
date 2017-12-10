@@ -6,8 +6,8 @@
  * Time: 15:54
  */
 
-$nickname = filter_input(INPUT_POST, "nickname");
-$message = filter_input(INPUT_POST, "message");
+$nickname = htmlspecialchars(filter_input(INPUT_POST, "nickname"));
+$message = htmlspecialchars(filter_input(INPUT_POST, "message"));
 //echo $nickname;
 //echo $message;
 
