@@ -48,7 +48,7 @@ mysqli_set_charset($dbhandler, "utf8");
     foreach ($messages as $message) {
     ?>
     <div class="message">
-        <p class="mes-head"><b><?= $message['nickname']?></b> (<?= date("d F Y", $message['date'])?>)</p>
+        <p class="mes-head"><b><?= $message['nickname']?></b> (<?= date("d F Y \| h:i:s", $message['date'])?>)</p>
         <p class="mes-text"><?= $message['message']?></p>
     </div>
     <?php
